@@ -3,6 +3,8 @@ import 'package:myapp/container_widget.dart';
 import 'package:myapp/row_column/column_widget.dart';
 import 'package:myapp/row_column/row_widget.dart';
 import 'package:myapp/row_column/row_column_widget.dart';
+import 'package:myapp/row_column/latihan.dart';
+import 'package:myapp/row_column/latihan2.dart';
 
 void main(){
   runApp (MyApp());
@@ -16,11 +18,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home:  Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 0, 255, 255),
+          backgroundColor: Color.fromARGB(255, 15, 162, 199),
           centerTitle: true,
           title: Text("Belajar Flutter"),
         ),
-        body: BelajarRowColumn()
+        body: Latihan2()
       ),
     );
   }
