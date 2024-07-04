@@ -30,7 +30,7 @@ class Latihan extends StatelessWidget {
               children: [
                 Center(
                   child: Image.network(
-                      'https://ew.com/thmb/6P6QNt1FRDhF0KHWvFieurkIuz8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/M8DBATM_WB002-2d92fb17538b4e099c695ab717824cbf.jpg'),
+                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNqBGTp2NxnesubY_0GzYQv6XVRNf_WPtGA&s'),
                 ),
                 Center(
                   child: Image.network(
@@ -43,7 +43,7 @@ class Latihan extends StatelessWidget {
             child: Row(
               children: [
                 Image.network(
-                    'https://i.pinimg.com/236x/1b/05/ea/1b05eaa67e7121fde5f4170d08902a1c.jpg'),
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_cRRStiL1laNzL-bTsEWZDby3YOktAWCh2w&s'),
                 SizedBox(width: 10), // Memberi jarak antara gambar dan teks
                 Expanded(
                   child: Text(

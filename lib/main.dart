@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/container_widget.dart';
-import 'package:myapp/row_column/column_widget.dart';
-import 'package:myapp/row_column/row_widget.dart';
-import 'package:myapp/row_column/row_column_widget.dart';
-import 'package:myapp/row_column/latihan.dart';
-import 'package:myapp/row_column/latihan2.dart';
+import 'package:myapp/listview/list_example.dart';
 
 void main(){
   runApp (MyApp());
@@ -22,7 +17,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Belajar Flutter"),
         ),
-        body: Latihan2()
+        body: ListExample()
       ),
     );
   }
