@@ -56,7 +56,7 @@ class ListExample extends StatelessWidget {
       itemCount: data.length,
       itemBuilder: (context, index) {
         return Card(
-          color: Color.fromARGB(255, 221, 221, 221),
+          color: Color.fromARGB(255, 220, 232, 255),
           margin: EdgeInsets.all(10),
           // color: Colors.blueGrey,
           borderOnForeground: true,
